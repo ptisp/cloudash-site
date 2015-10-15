@@ -857,7 +857,20 @@ footer .copyright {
 	50% { opacity: 1; transform: scale( 1 ); }
 	to { opacity: .5; transform: scale( .75 ); }
 }
-
+.heart {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background: 0 0;
+    color: #ac4142;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 100%;
+    -webkit-transition: color .2s ease-out, text-decoration .2s ease-out;
+    -moz-transition: color .2s ease-out, text-decoration .2s ease-out;
+    transition: color .2s ease-out, text-decoration .2s ease-out;
+}
 /* lightbox overlay */
 #imagelightbox-overlay {
    background-color: #383838;
