@@ -138,12 +138,12 @@ ul#nav li a:hover { color: #fff; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fff; }
 
-/* c. Hero Section
+/* c. main Section
 /* ------------------------------------------------------------------ */
 
-#hero {
+#main {
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   background: #23292f url(img/main-bg.png);
    overflow: hidden;
 }
 
@@ -152,59 +152,59 @@ ul#nav li.current a { color: #fff; }
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
-	#hero {
-		background: #23292f url(img/hero-bg_@2X.png);
+	#main {
+		background: #23292f url(img/main-bg_@2X.png);
 		background-size: 200px 200px;
 	}
 
 }
 
-#hero .row { max-width: 1040px; }
+#main .row { max-width: 1040px; }
 
-/* Hero Text */
-.hero-text {
+/* main Text */
+.main-text {
 	color: #676e73;
    width: 83%;
    text-align: center;
    margin: 54px auto 24px auto;
 }
-.hero-text h1 {
+.main-text h1 {
    font: 40px/1.2em 'montserrat-regular', sans-serif;
    color: #fff;
    padding: 0;
    margin: 0;
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
-.hero-text h1 span,
-.hero-text a { color: #11ABB0; }
-.hero-text p {
+.main-text h1 span,
+.main-text a { color: #11ABB0; }
+.main-text p {
    font: 16px/30px 'opensans-regular', sans-serif;
    padding: 0;
    margin: 12px 8% 0;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 }
 
-/* Hero Image */
-.hero-image {
+/* main Image */
+.main-image {
    width: 100%;
    margin: 0 auto;
 }
-.hero-image img {
+.main-image img {
    vertical-align: bottom;
    display: block;
 }
 
-/* Hero CTA Buttons */
-#hero .buttons {
+/* main CTA Buttons */
+#main .buttons {
    text-align: center;
    margin: 0 0 18px 0;
 }
-#hero .buttons .button {
+#main .buttons .button {
    font: 14px/24px 'montserrat-bold', sans-serif;
    text-transform : uppercase;
    letter-spacing: 2px;
 }
-#hero .buttons .trial {
+#main .buttons .trial {
    background: #4078C3;
    margin-right: 30px;
 
@@ -215,10 +215,10 @@ ul#nav li.current a { color: #fff; }
    -webkit-animation-iteration-count: 3;
       -moz-animation-iteration-count: 3;
 }
-#hero .buttons .trial:hover { background: #074394; }
-#hero .buttons .learn-more {}
+#main .buttons .trial:hover { background: #074394; }
+#main .buttons .learn-more {}
 
-#hero .buttons .demo {
+#main .buttons .demo {
    background: #43A047;
    margin-right: 30px;
 
@@ -229,8 +229,8 @@ ul#nav li.current a { color: #fff; }
    -webkit-animation-iteration-count: 3;
       -moz-animation-iteration-count: 3;
 }
-#hero .buttons .demo:hover { background: #2E7D32; }
-#hero .buttons .demo:focus { color: #fff; }
+#main .buttons .demo:hover { background: #2E7D32; }
+#main .buttons .demo:focus { color: #fff; }
 
 /* d. Features Section
 /* ------------------------------------------------------------------ */
@@ -444,19 +444,19 @@ ul.features li:nth-child(even) { }
 /* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
-#call-to-action {
+#screenshots {
    background: #23292F;
    padding-top: 72px;
    padding-bottom: 48px;
 }
-#call-to-action h1 {
+#screenshots h1 {
    font: 18px/24px 'montserrat-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#call-to-action h1 span { display: none; }
-#call-to-action .header-col h1:before {
+#screenshots h1 span { display: none; }
+#screenshots .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f093";
 	padding-right: 18px;
@@ -467,22 +467,22 @@ ul.features li:nth-child(even) { }
    float: right;
    color: #EBEEEE;
 }
-#call-to-action .action { margin-top: 18px; }
-#call-to-action .action .button { text-align: center; }
-#call-to-action h2 {
+#screenshots .action { margin-top: 18px; }
+#screenshots .action .button { text-align: center; }
+#screenshots h2 {
    font: 28px/36px 'montserrat-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 12px;
 }
-#call-to-action h2 a {
+#screenshots h2 a {
    color: inherit;
 }
-#call-to-action p {
+#screenshots p {
    color: #697B8B;
    font-size: 17px;
    padding-right: 5px;
 }
-#call-to-action p span {
+#screenshots p span {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #A9B5C0;
 }
