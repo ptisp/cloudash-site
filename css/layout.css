@@ -230,6 +230,7 @@ ul#nav li.current a { color: #fff; }
       -moz-animation-iteration-count: 3;
 }
 #hero .buttons .demo:hover { background: #2E7D32; }
+#hero .buttons .demo:focus { color: #fff; }
 
 /* d. Features Section
 /* ------------------------------------------------------------------ */
